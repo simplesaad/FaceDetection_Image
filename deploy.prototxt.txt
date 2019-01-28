@@ -1489,7 +1489,7 @@ layer {
   type: "Permute"
   bottom: "conv8_2_mbox_loc"
   top: "conv8_2_mbox_loc_perm"
-  permute_param {
+  permute_param  {
     order: 0
     order: 2
     order: 3
